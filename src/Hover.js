@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const HoverExample = (props) => {
-  const { hex, weight } = props;
+  const { hex } = props;
   const HoverableDiv = ({ handleMouseOver, handleMouseOut }) => {
     return (
       <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>

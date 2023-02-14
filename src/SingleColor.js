@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Hover from "./Hover"
 
 const SingleColor = (props) => {
-  const { rgb, weight, index, hex, alpha } = props;
+  const { rgb, weight, hex} = props;
   // console.log(rgb);
   const [alert, setAlert] = useState(false);
   const bcg = rgb.join(",");
